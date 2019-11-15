@@ -14,11 +14,11 @@ Things you may want to cover:
 
 ## Gems
 
-* Slim
-* Pagy
-* Devise
-* Cancancan
-* Simple_form
+* Slim: <https://github.com/slim-template/slim>
+* Pagy: <>
+* Devise: <>
+* Cancancan: <>
+* Simple_form: <https://github.com/plataformatec/simple_form>
 * exception_notification
 * http
 * whenever
