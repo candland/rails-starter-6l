@@ -13,5 +13,5 @@ user_base = {
 }
 
 User.create([
-  user_base.merge({email: "candland@gmail.com", confirmed_at: DateTime.now}),
+  user_base.merge({email: "candland@gmail.com", confirmed_at: DateTime.now, roles: [:user, :admin]}),
 ])

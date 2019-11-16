@@ -6,5 +6,6 @@ FactoryBot.define do
     password { "testing" }
     password_confirmation { "testing" }
     confirmed_at { Time.zone.now }
+    roles { [:user] }
   end
 end

@@ -8,6 +8,10 @@ html
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   body
+    - if user_signed_in?
+      - @current_user.roles.each do |role|
+        span => role
+        | &nbsp;
 
     - if user_signed_in?
       =< link_to current_user.first_name, edit_user_registration_path

@@ -16,7 +16,7 @@ Things you may want to cover:
 
 * Slim: <https://github.com/slim-template/slim>
 * Devise: <https://github.com/plataformatec/devise>
-* Cancancan: <>
+* Cancancan: <https://github.com/CanCanCommunity/cancancan>
 * Simple_form: <https://github.com/plataformatec/simple_form>
 * Pagy: <https://ddnexus.github.io/pagy/how-to>
 * exception_notification: <https://github.com/smartinez87/exception_notification>
