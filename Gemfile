@@ -38,6 +38,9 @@ gem "cancancan", "~> 2.0"
 gem "whenever"
 gem "exception_notification"
 
+# Utils / API
+gem "http"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.2", require: false
 

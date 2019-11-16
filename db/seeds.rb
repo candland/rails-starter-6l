@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+user_base = {
+  first_name: "Dusty",
+  last_name: "Candland",
+  password: "password",
+  password_confirmation: "password",
+}
+
+User.create([
+  user_base.merge({email: "candland@gmail.com", confirmed_at: DateTime.now}),
+])

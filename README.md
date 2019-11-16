@@ -15,7 +15,7 @@ Things you may want to cover:
 ## Gems
 
 * Slim: <https://github.com/slim-template/slim>
-* Devise: <>
+* Devise: <https://github.com/plataformatec/devise>
 * Cancancan: <>
 * Simple_form: <https://github.com/plataformatec/simple_form>
 * Pagy: <https://ddnexus.github.io/pagy/how-to>
