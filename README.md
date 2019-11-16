@@ -40,8 +40,9 @@ In View
 
 ### JavaScript/CSS
 
-* TailwindCSS:
-* StimulusJS:
+* TailwindCSS: <https://tailwindcss.com/docs/>
+* Font Awesome: <https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use>
+* StimulusJS: <https://stimulusjs.org/handbook/installing>
 
 ## Functionality
 
