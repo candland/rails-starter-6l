@@ -20,7 +20,8 @@ Things you may want to cover:
 * Simple_form: <https://github.com/plataformatec/simple_form>
 * Pagy: <https://ddnexus.github.io/pagy/how-to>
 * exception_notification: <https://github.com/smartinez87/exception_notification>
-* http
+* http: <https://github.com/httprb/http>
+* VCR: <https://relishapp.com/vcr/vcr/v/5-0-0/docs/getting-started>
 * whenever: <https://github.com/javan/whenever>
 * factory_bot: <https://github.com/thoughtbot/factory_bot>
 * guard: <https://github.com/guard/guard>
