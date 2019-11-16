@@ -64,8 +64,8 @@ group :development do
   gem "guard"
   gem "guard-minitest"
 
-  #   gem "solargraph"
-  #   gem "standardrb"
+  gem "solargraph"
+  gem "standardrb"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

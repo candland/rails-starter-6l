@@ -26,7 +26,7 @@ Things you may want to cover:
 * factory_bot: <https://github.com/thoughtbot/factory_bot>
 * guard: <https://github.com/guard/guard>
 * solargraph
-* standardrb
+* standardrb: <https://github.com/testdouble/standard>
 
 ### Pagy
 
@@ -40,13 +40,12 @@ In View
 
 ### JavaScript/CSS
 
-* TailwindCSS
-* StimulusJS
+* TailwindCSS:
+* StimulusJS:
 
 ## Functionality
 
 * User roles
-
 
 * Configuration
 
