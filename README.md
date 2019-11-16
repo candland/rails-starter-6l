@@ -21,7 +21,7 @@ Things you may want to cover:
 * Pagy: <https://ddnexus.github.io/pagy/how-to>
 * exception_notification: <https://github.com/smartinez87/exception_notification>
 * http
-* whenever
+* whenever: <https://github.com/javan/whenever>
 
 ### Pagy
 
