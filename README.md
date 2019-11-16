@@ -15,13 +15,23 @@ Things you may want to cover:
 ## Gems
 
 * Slim: <https://github.com/slim-template/slim>
-* Pagy: <>
 * Devise: <>
 * Cancancan: <>
 * Simple_form: <https://github.com/plataformatec/simple_form>
+* Pagy: <https://ddnexus.github.io/pagy/how-to>
 * exception_notification
 * http
 * whenever
+
+### Pagy
+
+In controller
+
+    @pagy, @records = pagy(Product.some_scope)
+
+In View
+
+    <%== pagy_nav(@pagy) %>
 
 ### JavaScript/CSS
 
