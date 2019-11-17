@@ -1,3 +1,5 @@
+require "digest/md5"
+
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
@@ -22,5 +24,12 @@ class User < ApplicationRecord
     define_method("#{role}?") do
       roles.include?(role)
     end
+  end
+
+  def gravitar_url size = 64, default = "mg"
+    email_address = email.downcase
+    hash = Digest::MD5.hexdigest(email_address)
+
+    "https://www.gravatar.com/avatar/#{hash}?s=#{size}&d=#{default}"
   end
 end
