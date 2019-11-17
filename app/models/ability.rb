@@ -36,6 +36,7 @@ class Ability
   end
 
   def user user
+    can :show, :dashboard
   end
 
   def admin user

@@ -1,16 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
 ## System dependencies
 
 * Postgres
-* Redis
+* -Redis-
 
 ## Gems
 
@@ -28,6 +21,14 @@ Things you may want to cover:
 * solargraph
 * standardrb: <https://github.com/testdouble/standard>
 
+## JavaScript/CSS
+
+* TailwindCSS: <https://tailwindcss.com/docs/>
+* Font Awesome: <https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use>
+* StimulusJS: <https://stimulusjs.org/handbook/installing>
+
+## Functionality
+
 ### Pagy
 
 In controller
@@ -38,30 +39,10 @@ In View
 
     <%== pagy_nav(@pagy) %>
 
-### JavaScript/CSS
-
-* TailwindCSS: <https://tailwindcss.com/docs/>
-* Font Awesome: <https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use>
-* StimulusJS: <https://stimulusjs.org/handbook/installing>
-
-## Functionality
-
-* User roles
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
 # Setup
 
 * Change database names in database.yml
+* Find and replace
+
+    rg -il rails-starter-6 | xargs -n 1 sed -i'' -e 's/RailsStarter6/NewName/g' -e 's/RAILS_STARTER_6/NEW_NAME/g' -e 's
+       │ /rails-starter-6/new-name/g' && rg -i rails-starter-6
