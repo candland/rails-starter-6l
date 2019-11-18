@@ -20,6 +20,7 @@
 * guard: <https://github.com/guard/guard>
 * solargraph
 * standardrb: <https://github.com/testdouble/standard>
+* inky-rb: <https://github.com/foundation/inky-rb>
 
 ## JavaScript/CSS
 

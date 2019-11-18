@@ -22,5 +22,9 @@ module RailsStarter6
     config.generators do |g|
       g.orm :active_record, primary_key_type: :uuid
     end
+
+    config.to_prepare do
+      Devise::Mailer.layout "mailer" # email.haml or email.erb
+    end
   end
 end
