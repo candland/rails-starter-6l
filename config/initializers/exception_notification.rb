@@ -15,9 +15,9 @@ ExceptionNotification.configure do |config|
 
   # Email notifier sends notifications by email.
   config.add_notifier :email, {
-    email_prefix: "[WPS Tools] ",
-    sender_address: %("Dusty" <dusty@wpsupporthq.com>),
-    exception_recipients: %w[dusty@wpsupporthq.com],
+    email_prefix: "[Rails Starter 6] ",
+    sender_address: %("Dusty" <candland@gmail.com>),
+    exception_recipients: %w[candland@gmail.com],
   }
 
   # Campfire notifier sends notifications to your Campfire room. Requires 'tinder' gem.
