@@ -66,7 +66,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     byebug (11.0.1)
-    cancancan (2.3.0)
+    cancancan (3.0.1)
     chronic (0.10.2)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
@@ -318,7 +318,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
-  cancancan (~> 2.0)
+  cancancan (~> 3.0)
   devise
   exception_notification
   factory_bot_rails

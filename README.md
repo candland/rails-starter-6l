@@ -45,5 +45,14 @@ In View
 * Change database names in database.yml
 * Find and replace
 
-    rg -il rails-starter-6 | xargs -n 1 sed -i'' -e 's/RailsStarter6/NewName/g' -e 's/RAILS_STARTER_6/NEW_NAME/g' -e 's
-       │ /rails-starter-6/new-name/g' && rg -i rails-starter-6
+    rg -li RailsStarter6 | xargs -n 1 sed -i'' -e 's/RailsStarter6/Profilrr/g' && rg -i RailsStarter6
+
+    rg -li 'rails[-_]starter[-_]6' | xargs -n 1 sed -i'' -e 's/RAILS_STARTER_6/PROFILRR/g' -e 's/rails_starter_6/profilrr/g' -e 's/rails-starter-6/profilrr/g' && rg -i 'rails[-_]starter[-_]6'
+
+    rg -li 'rails starter 6' | xargs -n 1 sed -i'' -e 's/Rails Starter 6/Profilrr/g' && rg -i 'rails starter 6'
+
+    rails db:create
+    rails db:migrate
+    rails db:seed
+
+    powder link

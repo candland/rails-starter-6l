@@ -32,7 +32,7 @@ gem "pagy"
 
 # Authentication
 gem "devise"
-gem "cancancan", "~> 2.0"
+gem "cancancan", "~> 3.0"
 
 # DevOps
 gem "whenever"
