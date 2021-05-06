@@ -15,12 +15,13 @@
 * exception_notification: <https://github.com/smartinez87/exception_notification>
 * http: <https://github.com/httprb/http>
 * VCR: <https://relishapp.com/vcr/vcr/v/5-0-0/docs/getting-started>
-* whenever: <https://github.com/javan/whenever>
 * factory_bot: <https://github.com/thoughtbot/factory_bot>
 * guard: <https://github.com/guard/guard>
 * solargraph
 * standardrb: <https://github.com/testdouble/standard>
 * inky-rb: <https://github.com/foundation/inky-rb>
+* Sidekiq: <https://github.com/mperham/sidekiq>
+* Hotwire
 
 ## JavaScript/CSS
 
@@ -51,6 +52,8 @@ In View
 
     rg -li 'rails[-_]starter[-_]6' | xargs -n 1 sed -i'' -e 's/rails_starter_6/profilrr/g'
 
+    rg -li 'rails[-_]starter6' | xargs -n 1 sed -i'' -e 's/rails_starter6/profilrr/g'
+
     rg -li 'rails[-_]starter[-_]6' | xargs -n 1 sed -i'' -e 's/rails-starter-6/profilrr/g'
 
     # check
@@ -61,5 +64,7 @@ In View
     rails db:create
     rails db:migrate
     rails db:seed
+
+If using puma-dev
 
     puma-dev link

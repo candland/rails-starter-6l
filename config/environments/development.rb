@@ -74,6 +74,8 @@ Rails.application.configure do
   config.hosts << "rails-starter-6.test"
   config.hosts << "localhost:3000"
 
+  config.active_job.queue_adapter = :sidekiq
+
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end

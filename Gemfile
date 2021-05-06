@@ -45,6 +45,9 @@ gem "http"
 gem "inky-rb", require: "inky"
 gem "premailer-rails"
 
+# Jobs
+gem "sidekiq"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.2", require: false
 
