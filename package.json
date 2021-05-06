@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
+    "@hotwired/turbo-rails": "^7.0.0-beta.5",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -14,7 +15,6 @@
     "postcss-nested": "^5.0.5",
     "stimulus": "^2.0.0",
     "tailwindcss": "^2.1.2",
-    "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
