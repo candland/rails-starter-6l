@@ -1,18 +1,18 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "~> 2.6"
+ruby "~> 2.7"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 6.0.1"
+gem "rails", "~> 6.0.3"
 # Use postgresql
 gem "pg", ">= 0.18", "< 2.0"
 # Use Puma as the app server
-gem "puma", "~> 4.3"
+gem "puma", "~> 5.2"
 # Use SCSS for stylesheets
 gem "sass-rails", ">= 6"
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem "webpacker", "~> 4.0"
+gem "webpacker", "~> 5.0"
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -69,7 +69,7 @@ group :development do
   gem "guard-minitest"
 
   gem "solargraph"
-  gem "standardrb"
+  gem "standard"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
