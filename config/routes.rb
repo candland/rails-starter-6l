@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   end
 
   get :dashboard, to: "dashboard#index", as: :dashboard
+
+  get "/healthcheck/", to: "health#check"
   root to: "home#index"
 end
