@@ -46,20 +46,24 @@ In View
 * Change database names in database.yml
 * Find and replace
 
-    rg -li RailsStarter6 | xargs -n 1 sed -i'' -e 's/RailsStarter6/Profilrr/g' && rg -i RailsStarter6
+    rg -l RailsStarter6 | xargs -n 1 sed -i'' -e 's/RailsStarter6/ReconnectApi/g'
 
-    rg -li 'rails[-_]starter[-_]6' | xargs -n 1 sed -i'' -e 's/RAILS_STARTER_6/PROFILRR/g'
+    rg -l 'RAILS_STARTER_6' | xargs -n 1 sed -i '' -e 's/RAILS_STARTER_6/RECONNECT_API/g'
 
-    rg -li 'rails[-_]starter[-_]6' | xargs -n 1 sed -i'' -e 's/rails_starter_6/profilrr/g'
+    rg -l 'rails_starter_6' | xargs -n 1 sed -i '' -e 's/rails_starter_6/reconnect_api/g'
 
-    rg -li 'rails[-_]starter6' | xargs -n 1 sed -i'' -e 's/rails_starter6/profilrr/g'
+    rg -l 'rails-starter-6' | xargs -n 1 sed -i '' -e 's/rails-starter-6/reconnect-api/g'
 
-    rg -li 'rails[-_]starter[-_]6' | xargs -n 1 sed -i'' -e 's/rails-starter-6/profilrr/g'
+    rg -l 'rails_starter6' | xargs -n 1 sed -i '' -e 's/rails_starter6/reconnect_api/g'
+
+    rg -l 'rails-starter6' | xargs -n 1 sed -i '' -e 's/rails-starter6/reconnect-api/g'
+
+    rg -l 'Rails Starter 6' | xargs -n 1 sed -i '' -e 's/Rails Starter 6/Reconnect Api/g'
 
     # check
-    rg -i 'rails[-_]starter[-_]6'
+    rg -i 'rails[- _]*starter[- _]*6'
 
-    rg -li 'rails starter 6' | xargs -n 1 sed -i'' -e 's/Rails Starter 6/Profilrr/g' && rg -i 'rails starter 6'
+## Setup Database
 
     rails db:create
     rails db:migrate
