@@ -46,7 +46,7 @@ In View
 * Change database names in database.yml
 * Find and replace
 
-    rg -l RailsStarter6 | xargs -n 1 sed -i'' -e 's/RailsStarter6/ReconnectApi/g'
+    rg -l RailsStarter6 | xargs -n 1 sed -i '' -e 's/RailsStarter6/ReconnectApi/g'
 
     rg -l 'RAILS_STARTER_6' | xargs -n 1 sed -i '' -e 's/RAILS_STARTER_6/RECONNECT_API/g'
 
