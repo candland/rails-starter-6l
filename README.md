@@ -1,5 +1,7 @@
 # README
 
+DEPRECATED: https://github.com/candland/rails-starter-7
+
 ## System dependencies
 
 * Postgres
